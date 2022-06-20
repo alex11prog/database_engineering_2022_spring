@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище pdbModelContainer" CdmEntityContainer="pdbEntities">
+    <EntitySetMapping Name="categories">
+      <EntityTypeMapping TypeName="pdbModel.category">
+        <MappingFragment StoreEntitySet="category">
+          <ScalarProperty Name="id_cat" ColumnName="id_cat" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="descr" ColumnName="descr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

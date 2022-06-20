@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="kr" assembly="kr">
+  <class name="category" table="category">
+    <id name="id_cat" column="id_cat">
+      <generator class="identity"/>
+    </id>
+    <property name="name" column="name" />
+    <property name="descr" column="descr" />
+  </class>
+</hibernate-mapping>
